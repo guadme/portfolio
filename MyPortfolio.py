@@ -21,11 +21,11 @@ df_vet_eur = df.loc[df["symbol"] == "VETEUR"]
 
 #Set holding variables
 
-vet_amount = float(21654.77609)
-adax_amount = float(514)
+vet_amount = float(#insert num of vet coins)
+adax_amount = float(#insert num of adax coin)
 
-vet_investment = float(1780)
-adax_investment = float(300)
+vet_investment = float(#inser vet investment)
+adax_investment = float(#insert adax investment)
 total_investment = vet_investment + adax_investment
 
 auxx1, header1, auxx2 = st.columns(3)
